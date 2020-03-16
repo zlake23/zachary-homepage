@@ -22,6 +22,6 @@ projects_html = top_html + content + bottom_html
 open('./docs/projects.html', 'w+').write(projects_html)
 
 # Combine files into new file for contact page
-content = open('./content/middle-projects.html').read()
+content = open('./content/middle-contact.html').read()
 contact_html = top_html + content + bottom_html
 open('./docs/contact.html', 'w+').write(contact_html)
