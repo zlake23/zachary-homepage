@@ -197,6 +197,30 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(9, 110, 51);
 }
 
+
+/* Contact button styles*/
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: rgb(10, 148, 167);
+  color: white;
+}
+
+.fa-github {
+  background: rgb(10, 148, 167);
+  color: white;
+}
 .footer {
   background-color: rgba(66, 65, 62, 0.65); 
   color: rgba(255, 255, 255, 0.7);
