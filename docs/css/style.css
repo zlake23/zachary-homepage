@@ -37,6 +37,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3rem;
     font-weight: 800;
   }
+
+  .section-heading .section-heading-blog {
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+  }
   
   .section-heading .section-heading-lower {
     display: block;
@@ -152,7 +158,9 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.85)
+  background-color: rgba(255, 255, 255, 0.85);
+  max-height: 400px;
+  overflow: auto;
 }
 
 .blog-item .blog-item-inner:before {
