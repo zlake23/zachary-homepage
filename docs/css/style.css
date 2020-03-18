@@ -8,6 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+/* Heading styles */
 .site-heading {
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -50,6 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
   }
 
+  /* Navbar styles */
   #mainNav {
     background-color: rgba(66, 65, 62, 0.65);
     font-family: 'Raleway';
@@ -64,6 +66,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
   }
 
+
+/* Home page styles */ 
+  
 .about {
   background-color: rgba(9, 110, 51, 0.65);
   padding-top: 4rem;
@@ -94,6 +99,18 @@ h1, h2, h3, h4, h5, h6 {
   border: 0.25rem solid rgba(255, 255, 255, 0.85);
 }
 
+
+.profile-img {
+  border-radius: 50%;
+}
+
+@media (min-width: 992px) {
+  .profile-img {
+    position: fixed;
+    z-index: 1;
+    margin-bottom: -3rem;
+  }
+
 .cta {
   background-color: rgba(102, 26, 0, 0.85);
   padding-top: 4rem;
@@ -118,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 0.25rem solid rgba(255, 255, 255, 0.85);
 }
 
-
+/* Projects page styles */
 .projects {
   background-color: rgba(65, 65, 65, 0.85);
   padding-top: 4rem;
@@ -142,6 +159,8 @@ h1, h2, h3, h4, h5, h6 {
   right: -0.5rem;
   border: 0.25rem solid rgba(255, 255, 255, 0.85);
 }
+
+/* Blog page styles */
 
 .blog-item {
   padding-top: 4rem;
@@ -221,6 +240,8 @@ h1, h2, h3, h4, h5, h6 {
   background: rgb(10, 148, 167);
   color: white;
 }
+
+
 .footer {
   background-color: rgba(66, 65, 62, 0.65); 
   color: rgba(255, 255, 255, 0.7);
