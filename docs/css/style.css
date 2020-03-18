@@ -102,14 +102,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .profile-img {
   border-radius: 50%;
+  border: solid darkred 3px;
 }
 
-@media (min-width: 992px) {
-  .profile-img {
-    position: fixed;
-    z-index: 1;
-    margin-bottom: -3rem;
-  }
 
 .cta {
   background-color: rgba(102, 26, 0, 0.85);
