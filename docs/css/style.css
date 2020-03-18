@@ -101,8 +101,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .profile-img {
-  border-radius: 50%;
-  border: solid darkred 3px;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(161, 161, 161, 0.85);
 }
 
 
